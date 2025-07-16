@@ -1,15 +1,6 @@
-const button = document.querySelector("button");
-const red = document.getElementById("red");
-const yellow = document.getElementById("yellow");
-const green = document.getElementById("green");
+const li= document.querySelector('li');
+const para= document.querySelectorAll('p')
 
-// button.onclick = () => {
-//     red.classList.toggle('red-bg')
-//     yellow.classList.toggle('yellow-bg')
-//     green.classList.toggle('green-bg')
-// }
-button.addEventListener("click", () => {
-  red.classList.toggle("red-bg");
-  yellow.classList.toggle("yellow-bg");
-  green.classList.toggle("green-bg");
-});
+li.addEventListener('click', () =>{
+para.style.display='flex'
+})

@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -10,38 +10,17 @@ body{
     align-items: center;
     font-family: sans-serif;
 }
-div{
+.container{
     text-align: center;
 }
-.light {
-    border: 1px solid ;
-    width: 160px;
-    height: 160px;
-    margin: 20px;
-    border-radius: 50%;
+ul{
+    list-style: none;
+    
 }
-button{
-    all: unset;
-border: 1px solid;
-padding: 10px 20px;
-border-radius: 10px;
-cursor: pointer;
-transition: 0.3s ease-in-out all;
+ul> li{
+padding:10px;
 }
-button:hover{
-    background-color: lightpink;
-    border: none;
-    color: #FFF;
-}
-.red-bg{
-    border: none;
-    background-color: red;
-}
-.yellow-bg{
-    border: none;
-    background-color: yellow;
-}
-.green-bg{
-    border: none;
-    background-color: green;
+
+ul>li>p{
+    display: none;
 }
